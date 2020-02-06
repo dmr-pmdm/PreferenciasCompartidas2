@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige color de texto"/>
+
+    <RadioGroup
+        android:id="@+id/rgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbAzul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Azul"/>
+
+        <RadioButton
+            android:id="@+id/rbRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rojo"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtCambiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto cambiante..."
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/negro"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
